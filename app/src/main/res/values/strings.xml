@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MidSemPapers</string>
+
+    <string-array name="Computer_Grahpics">
+        <item>CGSolution</item>
+        <item>CGSolution201617</item>
+        <item>CGSolution201718</item>
+    </string-array>
+    <string-array name="Algorithms">
+        <item>AdaPapers</item>
+        <item>AdaSolution201617</item>
+        <item>Adaolution201718</item>
+    </string-array>
+    <string-array name="Java">
+        <item>JavaPapers</item>
+        <item>JavaSolution201617</item>
+        <item>JavaSolution201718</item>
+    </string-array>
+    <string-array name="Systems_Prog">
+        <item>SPPapers</item>
+        <item>SPSolution</item>
+        <item>SPSolution201718</item>
+    </string-array>
+</resources>
