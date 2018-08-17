@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         mainlist=findViewById(R.id.mainlist);
 
-        String [] papers={"Computer_Graphics","Java","Systems_Prog.","Algorithms"};
+        String [] papers={"Computer_Graphics","Java","Systems_Prog.","Algorithms","Darshan_PDFs"};
 
         final ArrayAdapter<String> subjects;
 

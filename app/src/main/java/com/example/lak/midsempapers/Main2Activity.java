@@ -89,6 +89,21 @@ public class Main2Activity extends AppCompatActivity {
                                           }
             );
         }
+        else if(Sname.equals("Darshan_PDFs")){
+            paperlist=getResources().getStringArray(R.array.Darshan_PDFs);
+            papername=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, paperlist);
+            papers.setAdapter(papername);
+            papers.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                                              public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+                                                  String text = papername.getItem(position);
+                                                  Intent I=new Intent(getApplicationContext(),Main4Activity.class);
+                                                  I.putExtra("PaperName",text);
+                                                  startActivity(I);
+
+                                              }
+                                          }
+            );
+        }
 
 
     }

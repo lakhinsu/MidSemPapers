@@ -9,7 +9,7 @@
     <string-array name="Algorithms">
         <item>AdaPapers</item>
         <item>AdaSolution201617</item>
-        <item>Adaolution201718</item>
+        <item>AdaSolution201718</item>
     </string-array>
     <string-array name="Java">
         <item>JavaPapers</item>
@@ -20,5 +20,11 @@
         <item>SPPapers</item>
         <item>SPSolution</item>
         <item>SPSolution201718</item>
+    </string-array>
+    <string-array name="Darshan_PDFs">
+        <item>ADA_Darshan</item>
+        <item>SP_Darshan</item>
+        <item>CG_Darshan</item>
+        <item>Java_Darshan</item>
     </string-array>
 </resources>
